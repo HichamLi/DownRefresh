@@ -20,6 +20,8 @@ import com.itql.downrefresh.R;
  */
 public class ListHeadView extends ListView {
 
+    private View headerView;
+
     public ListHeadView(Context context) {
         super(context);
         init();
@@ -36,7 +38,14 @@ public class ListHeadView extends ListView {
     }
 
     private void init(){
+        initHeaderView();
+    }
 
+    /**
+     * 初始化 herderView
+     */
+    private void initHeaderView() {
+        headerView = View.inflate(getContext(), R.layout.view_list_head, null);
     }
 
     class MyAdapter extends BaseAdapter{
