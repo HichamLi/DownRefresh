@@ -16,7 +16,7 @@ import android.widget.ListView;
 import com.itql.downrefresh.R;
 
 /**
- * TODO: document your custom view class.
+ * 自定义带下拉刷新的ListView
  */
 public class ListHeadView extends ListView {
 
