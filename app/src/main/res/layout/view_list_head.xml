@@ -14,11 +14,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/ic_rotate"/>
-        <ImageView
-            android:id="@+id/iv_refresh"
+        <ProgressBar
+            android:id="@+id/pb_refresh_head"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/ic_refresh"
+            android:indeterminateDrawable="@drawable/ic_refresh_drawable"
+            android:indeterminateDuration="1000"
             android:visibility="invisible"/>
     </RelativeLayout>
     <LinearLayout
@@ -28,7 +29,7 @@
         android:gravity="center"
         android:layout_marginLeft="20dp">
         <TextView
-            android:id="@+id/tv_down_refresh"
+            android:id="@+id/tv_down_refresh_head"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/down_refresh"
