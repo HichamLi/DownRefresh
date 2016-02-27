@@ -4,5 +4,4 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="tv_down_refresh">20sp</dimen>
     <dimen name="tv_refresh_time">16sp</dimen>
-    <dimen name="tv_down_page">下一页</dimen>
 </resources>
