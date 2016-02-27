@@ -9,10 +9,9 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".activities.MainActivity">
 
-    <ListView
+    <com.itql.downrefresh.customs.ListHeadView
         android:id="@+id/lv"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-    </ListView>
+        android:layout_height="match_parent">
+    </com.itql.downrefresh.customs.ListHeadView>
 </RelativeLayout>

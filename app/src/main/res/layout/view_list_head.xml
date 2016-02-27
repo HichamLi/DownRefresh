@@ -2,8 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="100dp"
-    android:gravity="center">
+    android:layout_height="wrap_content"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:gravity="center_horizontal">
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -16,8 +17,8 @@
             android:background="@drawable/ic_rotate"/>
         <ProgressBar
             android:id="@+id/pb_refresh_head"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:indeterminateDrawable="@drawable/ic_refresh_drawable"
             android:indeterminateDuration="1000"
             android:visibility="invisible"/>

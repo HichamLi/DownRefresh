@@ -2,13 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="50dp"
+    android:layout_height="wrap_content"
     android:gravity="center">
 
     <ProgressBar
         android:id="@+id/pb_refresh_foot"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:indeterminateDrawable="@drawable/ic_refresh_drawable"
         android:indeterminateDuration="1000" />
 
@@ -16,7 +16,7 @@
         android:id="@+id/tv_down_refresh_foot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/down_refresh"
-        android:textSize="@string/tv_down_page"/>
+        android:text="@string/tv_down_page"
+        android:textSize="@dimen/tv_down_refresh"/>
 
 </LinearLayout>
